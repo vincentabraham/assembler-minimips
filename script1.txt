@@ -1,0 +1,10 @@
+lw $s6, 40 ($t3)
+sub $s2, $t4, $s4 
+add $t5, $s2, $s1
+sub $s6, $s6, $t5
+sll $s6, $s6, 4
+and $s6, $s6, $t2
+xor $s6, $s6, $t8
+sw $s6, 40 ($t3)
+abc $s1, $s2, 4
+
